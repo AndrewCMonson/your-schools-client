@@ -6,7 +6,7 @@ export default {
     themes: [
       {
         darkTheme: {
-          primary: "#000000",
+          primary: "#585555",
 
           secondary: "#e00000",
 
@@ -14,7 +14,7 @@ export default {
 
           neutral: "#06303e",
 
-          "base-100": "36454F",
+          "base-100": "#585555",
 
           info: "#0098ea",
 

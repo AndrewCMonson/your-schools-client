@@ -12,6 +12,7 @@ node_modules
 dist
 dist-ssr
 *.local
+src/__generatedTypes__
 
 # Editor directories and files
 .vscode/*

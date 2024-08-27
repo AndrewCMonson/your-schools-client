@@ -30,7 +30,7 @@ import { onError } from "@apollo/client/link/error";
 import { useSessionStore } from "./stores/session";
 
 const link = createHttpLink({
-  uri: "https://ys-alb-808494479.us-east-1.elb.amazonaws.com/graphql",
+  uri: "http://localhost:3005/graphql",
   credentials: "include",
 });
 
