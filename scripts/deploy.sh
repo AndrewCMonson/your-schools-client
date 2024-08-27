@@ -1,0 +1,1 @@
+aws s3 cp C:/Users/andre/coding-projects/your-schools/frontend/dist s3://yourschools.co/ --recursive && aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DIST_ID --paths '/*'
